@@ -1,0 +1,15 @@
+{
+  "name": "qr-render-service",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.64",
+    "body-parser": "^1.20.3",
+    "express": "^4.19.2",
+    "qr-code-styling-node": "^1.7.0"
+  }
+}
