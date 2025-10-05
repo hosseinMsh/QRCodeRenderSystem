@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@loskir/styled-qr-code-node": "^1.9.2",
+    "unpkg.com@qr-code-styling": "^1.7.2",
     "body-parser": "^1.20.3",
     "express": "^4.19.2"
   }

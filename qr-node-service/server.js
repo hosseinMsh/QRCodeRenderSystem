@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const { QRCodeStyling } = require("qr-code-styling-node");
+const { QRCodeCanvas } = require("@loskir/styled-qr-code-node");
+
 
 const app = express();
 app.use(bodyParser.json({ limit: "20mb" }));
